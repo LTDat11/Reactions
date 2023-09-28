@@ -1,0 +1,36 @@
+#app {
+   margin: 0 auto;
+   max-width: 400px;
+  }
+  
+  .click-area {
+    margin: 0 auto;
+    padding: 50px 0;
+    background: #950000;
+    cursor: pointer;
+  }
+  
+  .display-text {
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .recent-scores {
+    margin: 0 auto;
+    padding-bottom: 30px ;
+    width: 125px;
+    flex-shrink: 0;
+  }
+  
+  .score {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    
+  }
+  
+  .score:nth-child(odd) {
+    background: #eeeeee;
+  }
+  
